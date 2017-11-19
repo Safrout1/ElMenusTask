@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/safrout/Desktop/play-scala-rest-api-example/conf/application.conf,/Users/safrout/Desktop/play-scala-rest-api-example/target/scala-2.11/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/safrout/Desktop/play-scala-rest-api-example/conf/generated.keystore,/Users/safrout/Desktop/play-scala-rest-api-example/target/scala-2.11/classes/generated.keystore)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/safrout/Desktop/play-scala-rest-api-example/conf/logback.xml,/Users/safrout/Desktop/play-scala-rest-api-example/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/safrout/Desktop/play-scala-rest-api-example/conf/routes,/Users/safrout/Desktop/play-scala-rest-api-example/target/scala-2.11/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/safrout/Desktop/play-scala-rest-api-example/conf/secure.conf,/Users/safrout/Desktop/play-scala-rest-api-example/target/scala-2.11/classes/secure.conf)[0m

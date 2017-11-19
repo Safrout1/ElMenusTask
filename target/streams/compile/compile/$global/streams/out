@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/safrout/Desktop/play-scala-rest-api-example/app/RequestHandler.scala:58:3: Missing closing brace `}' assumed here[0m
+[0m[[0m[31merror[0m] [0m[0m  return origReq[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
