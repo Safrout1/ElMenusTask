@@ -18,13 +18,13 @@ object ElMenusTask extends App {
     return if (s.length == 0) "" else getRepeatedChar(s.charAt(0), s.substring(1, lengthOfRepetitions + 1).toInt) + runLengthDecode(s.substring(lengthOfRepetitions + 1))
   }
 
-  def compose[A](f: A => A, g: A => A, in: A): A = return f(g(in));
+  def compose[A](f: A => A, g: A => A)(in: A): A = return f(g(in));
 
   val inc = (n: Int) => n + 1;
 
   val square = (n: Int) => n * n;
 
-
+  def h = compose(square, inc) _
 
 
   println(factorial(5))
@@ -36,5 +36,5 @@ object ElMenusTask extends App {
 
   println(runLengthDecode("a10b3a1x4y3z1y1x1"))
 
-  println(compose(square, inc, 6))
+  println(h(6))
 }
