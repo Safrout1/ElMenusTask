@@ -18,7 +18,7 @@ object ElMenusTask extends App {
     return if (s.length == 0) "" else getRepeatedChar(s.charAt(0), s.substring(1, lengthOfRepetitions + 1).toInt) + runLengthDecode(s.substring(lengthOfRepetitions + 1))
   }
 
-  def compose[A](f: A => A, g: A => A) = (in: A) => {f(g(in))}
+  def compose[A](f: A => A, g: A => A) = (in: A) => f(g(in))
 
   val inc = (n: Int) => n + 1;
 
